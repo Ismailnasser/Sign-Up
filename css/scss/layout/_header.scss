@@ -1,0 +1,33 @@
+/* Header */
+
+.header {
+  background-color: #f7f7f7;
+  padding: $paddingPixels 0;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: $marginPixels;
+  .wrapper {
+    .logo {
+      width: $secondWidth - 10;
+      margin-right: $marginPixels;
+      padding-right: $paddingPixels;
+      img {
+        width: $mainWidth - 10
+      }
+    }
+    .login-button {
+      margin-left: $marginPixels - 3;
+      a {
+        color: $blueColor;
+        font: normal 18px $roboto;
+        &:hover {
+          text-decoration: none;
+        }
+        &:active {
+          color: #387aca
+        }
+      }
+    }
+  }
+}
+
+/* End Header */

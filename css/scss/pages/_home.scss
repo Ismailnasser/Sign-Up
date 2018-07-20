@@ -1,0 +1,114 @@
+.sign-up-form {
+  @media (min-width: 992px) {
+    margin: $marginPixels + 90 0
+  }
+  .image {
+    @media (max-width: 991px) {
+      margin-bottom: $marginPixels
+    }
+  }
+  .form-column {
+    @media (max-width: 991px) {
+      margin: 50px 0
+    }
+  }
+  .title {
+    .heading {
+      color: #fe5d55
+    }
+    .description {
+      color: #aaa;
+      font: normal 14px $openSans;
+      margin-left: $marginPixels - 5
+    }
+  }
+  .form {
+    input {
+      color: #555
+    }
+    form {
+      .user-name {
+        input {
+          &:not(:last-child) {
+            margin-right: $marginPixels + 5;
+          }
+        }
+      }
+      .user-name,
+      .email,
+      .password {
+        input {
+          width: $mainWidth;
+          border: 1px solid #ddd;
+          padding: 5px 10px;
+          border-radius: 25px;
+        }
+      }
+      .user-birthday {
+        margin: $marginPixels 0;
+        .user-birthday-title {
+          p {
+            color: #607d8b;
+            font: 400 18px $roboto
+          }
+        }
+        .date {
+          select {
+            border: 1px solid #ccc;
+            &:not(:last-child) {
+              margin-right: $marginPixels - 7
+            }
+          }
+          .info {
+            width: $secondWidth + 70;
+            font-size: 12px;
+            margin-left: $marginPixels;
+            color: $blueColor;
+            @media (max-width: 380px) {
+              font-size: 10px
+            }
+            p {
+              color: #607d8b
+            }
+          }
+        }
+      }
+      .user-gender {
+        margin-bottom: $marginPixels;
+        input {
+          width: 12px;
+        }
+        label {
+          margin: 0;
+          font-size: 20px;
+          &:not(:last-child) {
+            margin-right: $marginPixels
+          }
+        }
+      }
+    }
+    .user-birthday,
+    .user-gender,
+    .license {
+      margin-left: $marginPixels - 5
+    }
+    .license {
+      p {
+        color: #607D8B;
+        font-size: 15px
+      }
+    }
+    .submit {
+      .submit-button {
+        background-color: $blueColor;
+        border: 2px solid #94bbea;
+        width: $secondWidth + 100;
+        height: $secondHeight - 50;
+        font-size: 25px;
+        color: #fff;
+        border-radius: 25px;
+        cursor: pointer
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+/* Inline Block display */
+:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #000; }
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+button {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: all .3s ease-in-out; }
+  button:hover {
+    background-color: #000;
+    color: #FFF; }
+
+/* Header */
+.header {
+  background-color: #f7f7f7;
+  padding: 10px 0;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 10px; }
+  .header .wrapper .logo {
+    width: 90px;
+    margin-right: 10px;
+    padding-right: 10px; }
+    .header .wrapper .logo img {
+      width: 90%; }
+  .header .wrapper .login-button {
+    margin-left: 7px; }
+    .header .wrapper .login-button a {
+      color: #4390ed;
+      font: normal 18px "Roboto", sans-serif; }
+      .header .wrapper .login-button a:hover {
+        text-decoration: none; }
+      .header .wrapper .login-button a:active {
+        color: #387aca; }
+
+/* End Header */
+@media (min-width: 992px) {
+  .sign-up-form {
+    margin: 100px 0; } }
+@media (max-width: 991px) {
+  .sign-up-form .image {
+    margin-bottom: 10px; } }
+@media (max-width: 991px) {
+  .sign-up-form .form-column {
+    margin: 50px 0; } }
+.sign-up-form .title .heading {
+  color: #fe5d55; }
+.sign-up-form .title .description {
+  color: #aaa;
+  font: normal 14px "Open Sans", sans-serif;
+  margin-left: 5px; }
+.sign-up-form .form input {
+  color: #555; }
+.sign-up-form .form form .user-name input:not(:last-child) {
+  margin-right: 15px; }
+.sign-up-form .form form .user-name input,
+.sign-up-form .form form .email input,
+.sign-up-form .form form .password input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 25px; }
+.sign-up-form .form form .user-birthday {
+  margin: 10px 0; }
+  .sign-up-form .form form .user-birthday .user-birthday-title p {
+    color: #607d8b;
+    font: 400 18px "Roboto", sans-serif; }
+  .sign-up-form .form form .user-birthday .date select {
+    border: 1px solid #ccc; }
+    .sign-up-form .form form .user-birthday .date select:not(:last-child) {
+      margin-right: 3px; }
+  .sign-up-form .form form .user-birthday .date .info {
+    width: 170px;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #4390ed; }
+    @media (max-width: 380px) {
+      .sign-up-form .form form .user-birthday .date .info {
+        font-size: 10px; } }
+    .sign-up-form .form form .user-birthday .date .info p {
+      color: #607d8b; }
+.sign-up-form .form form .user-gender {
+  margin-bottom: 10px; }
+  .sign-up-form .form form .user-gender input {
+    width: 12px; }
+  .sign-up-form .form form .user-gender label {
+    margin: 0;
+    font-size: 20px; }
+    .sign-up-form .form form .user-gender label:not(:last-child) {
+      margin-right: 10px; }
+.sign-up-form .form .user-birthday,
+.sign-up-form .form .user-gender,
+.sign-up-form .form .license {
+  margin-left: 5px; }
+.sign-up-form .form .license p {
+  color: #607D8B;
+  font-size: 15px; }
+.sign-up-form .form .submit .submit-button {
+  background-color: #4390ed;
+  border: 2px solid #94bbea;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer; }
+
+/* Page Footer */
+/* Footer */
+.footer {
+  background: #f7f7f7; }
+  @media (max-width: 767px) {
+    .footer .list ul {
+      flex-direction: column;
+      text-align: center; } }
+  .footer .list ul > li {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .footer .list ul > li:not(:last-child) {
+        margin-right: 15px; } }
+    .footer .list ul > li a {
+      color: #2c3e50;
+      font: 400 13px "Open Sans", sans-serif; }
+  @media (max-width: 767px) {
+    .footer .cr-l-column {
+      justify-content: center !important; } }
+  .footer .languages {
+    margin-right: 10px; }
+    .footer .languages select {
+      background: transparent;
+      border: 0;
+      font-size: 15px;
+      color: #2c3e50; }
+  .footer .copy-right {
+    color: #2c3e50;
+    font-size: 13px;
+    padding-left: 7px; }
+
+/* End Footer */
+
+/*# sourceMappingURL=home-page.css.map */
